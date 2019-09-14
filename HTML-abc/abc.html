@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="network.css">
+    <link rel="stylesheet" href="abc.css">
+
+</head>
+
+<body>
+
+    <img src="world.jpg" height="635" width="1340" alt="fhgfhr" usemap='#name'>
+    <div id="root">
+        <button onclick="hide()"  id="hide_button" style="display: inline-block"><i src="transparentcy.png" alt="icon"></button>
+        <div id="searchs" style="display: none">
+            <input type="text" id="searchbar" placeholder="type a product">
+            <button id="searchbtn">search</button>
+        </div>
+        <div id="content">
+
+        </div>
+    </div>
+    <map name="name">
+
+        <div title="Russia" style="width: 100px; height: 100px; position: absolute; top: 10px; left: 10px;">
+            <area shape="rect" coords="10 10 100 100" href="https://www.google.com" alt="edfgh">
+            <div style="width: 100px; height: 100px; position: absolute; top: 0px; left: 0px;" class="tooltip">
+                <img class="tooltiptext" src="rus.png" height="70" width="35">
+            </div>
+        </div>
+        <div title='Russia' style="width: 50px; height: 50px; position: absolute; top: 40px; left: 110px;">
+            <area shape="rect" coords="110 40 50 50" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="rus.png" height="70" width="35">
+            </div>
+        </div>
+        <div title='USA' style="width: 50px; height: 75px; position: absolute; top: 60px; left: 190px;">
+            <area shape="rect" coords="190 60 50 75" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="usa.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='USA' style="width: 35px; height: 50px; position: absolute; top: 95px; left: 160px;">
+            <area shape="rect" coords="160 95 35 50" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="usa.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='USA' style="width: 20px; height: 15px; position: absolute; top: 85px; left: 170px;">
+            <area shape="rect" coords="170 85 20 15" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="usa.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='USA' style="width: 25px; height: 30px; position: absolute; top: 60px; left: 240px;">
+            <area shape="rect" coords="240 60 25 30" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="usa.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='USA' style="width: 13px; height: 30px; position: absolute; top: 90px; left: 240px;">
+            <area shape="rect" coords="240 90 13 30" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="usa.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='Canada' style="width: 125px; height: 125px; position: absolute; top: 80px; left: 253px;">
+            <area shape="rect" coords="253 80 125 125" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="can.jpg" height="40" width="35">
+            </div>
+        </div>
+        <div title='Canada' style="width: 10px; height: 100px; position: absolute; top: 110px; left: 249px;">
+            <area shape="rect" coords="249 110 10 100" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="can.jpg" height="40" width="35">
+            </div>
+        </div>
+        <div title='Canada' style="width: 15px; height: 30px; position: absolute; top: 120px; left: 234px;">
+            <area shape="rect" coords="234 120 15 30" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="can.jpg" height="40" width="35">
+            </div>
+        </div>
+        <div title='Canada' style="width: 125px; height: 125px; position: absolute; top: 30px; left: 350px;">
+            <area shape="rect" coords="350 30 125 125" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="can.jpg" height="40" width="35">
+            </div>
+        </div>
+        <div title='Canada' style="width: 70px; height: 40px; position: absolute; top: 180px; left: 360px;">
+            <area shape="rect" coords="360 180 70 40" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="can.jpg" height="40" width="35">
+            </div>
+        </div>
+        <div title='Canada' style="width: 45px; height: 65px; position: absolute; top: 155px; left: 430px;">
+            <area shape="rect" coords="430 155 45 65" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="can.jpg" height="40" width="35">
+            </div>
+        </div>
+        <div title='Canada' style="width: 80px; height: 45px; position: absolute; top: 10px; left: 465px;">
+            <area shape="rect" coords="465 10 45 80" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="can.jpg" height="40" width="35">
+            </div>
+        </div>
+        <div title='USA' style="width: 130px; height: 65px; position: absolute; top: 210px; left: 253px;">
+            <area shape="rect" coords="253 210 130 65" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="usa.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='USA' style="width: 30px; height: 40px; position: absolute; top: 227px; left: 385px;">
+            <area shape="rect" coords="385 227 30 30" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="usa.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='USA' style="width: 25px; height: 15px; position: absolute; top: 222px; left: 415px;">
+            <area shape="rect" coords="415 222 25 15" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="usa.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='Mexico' style="width: 35px; height: 30px; position: absolute; top: 270px; left: 265px;">
+            <area shape="rect" coords="265 270 35 30" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="mex.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='Mexico' style="width: 35px; height: 40px; position: absolute; top: 280px; left: 285px;">
+            <area shape="rect" coords="285 280 35 40" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="mex.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='Mexico' style="width: 35px; height: 10px; position: absolute; top: 315px; left: 305px;">
+            <area shape="rect" coords="305 315 35 10" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="mex.png" height="40" width="30">
+            </div>
+        </div>
+        <div title='Mexico' style="width: 35px; height: 10px; position: absolute; top: 315px; left: 305px;">
+            <area shape="rect" coords="305 315 35 10" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="mex.png" height="40" width="30">
+            </div>
+        </div>
+        <div title='China' style="width: 30px; height: 30px; position: absolute; top: 180px; left: 1080px;">
+            <area shape="rect" coords="1080 180 30 30" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="china.jpg" height="40" width="30">
+            </div>
+        </div>
+        <div title='China' style="width: 50px; height: 35px; position: absolute; top: 205px; left: 1090px;">
+            <area shape="rect" coords="1090 205 50 35" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="china.jpg" height="40" width="30">
+            </div>
+        </div>
+        <div title='China' style="width: 25px; height: 90px; position: absolute; top: 215px; left: 1075px;">
+            <area shape="rect" coords="1075 215 25 50" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="china.jpg" height="40" width="30">
+            </div>
+        </div>
+        <div title='China' style="width: 15px; height: 30px; position: absolute; top: 265px; left: 1100px;">
+            <area shape="rect" coords="1100 265 15 30" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="china.jpg" height="40" width="30">
+            </div>
+        </div>
+        <div title='China' style="width: 50px; height: 70px; position: absolute; top: 238px; left: 1030px;">
+            <area shape="rect" coords="1030 238 50 70" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="china.jpg" height="40" width="30">
+            </div>
+        </div>
+        <div title='China' style="width: 85px; height: 47px; position: absolute; top: 235px; left: 950px;">
+            <area shape="rect" coords="950 235 85 47" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="china.jpg" height="40" width="30">
+            </div>
+        </div>
+        <div title='China' style="width: 25px; height: 20px; position: absolute; top: 215px; left: 960px;">
+            <area shape="rect" coords="960 215 20 20" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="china.jpg" height="40" width="30">
+            </div>
+        </div>
+        <div title='Russia' style="width: 105px; height: 80px; position: absolute; top: 130px; left: 780px;">
+            <area shape="rect" coords="780 130 105 80" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="rus.png" height="70" width="35">
+            </div>
+        </div>
+        <div title='Russia' style="width: 10px; height: 62px; position: absolute; top: 130px; left: 770px;">
+            <area shape="rect" coords="770 130 10 62" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="rus.png" height="70" width="35">
+            </div>
+        </div>
+        <div title='Russia' style="width: 40px; height: 25px; position: absolute; top: 210px; left: 800px;">
+            <area shape="rect" coords="800 210 40 25" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="rus.png" height="70" width="35">
+            </div>
+        </div>
+        <div title='Russia' style="width: 255px; height: 125px; position: absolute; top: 65px; left: 880px;">
+            <area shape="rect" coords="880 65 255 125" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="rus.png" height="70" width="35">
+            </div>
+        </div>
+        <div title='Russia' style="width: 150px; height: 8px; position: absolute; top: 195px; left: 930px;">
+            <area shape="rect" coords="930 195 150 8" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="rus.png" height="70" width="35">
+            </div>
+        </div>
+        <div title='Russia' style="width: 60px; height: 60px; position: absolute; top: 65px; left: 1135px;">
+            <area shape="rect" coords="1135 65 60 60" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="rus.png" height="70" width="35">
+            </div>
+        </div>
+        <div title='Russia' style="width: 40px; height: 130px; position: absolute; top: 45px; left: 1195px;">
+            <area shape="rect" coords="1195 45 40 130" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="rus.png" height="70" width="35">
+            </div>
+        </div>
+        <div title='Russia' style="width: 40px; height: 35px; position: absolute; top: 155px; left: 1110px;">
+            <area shape="rect" coords="1110 155 40 35" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="rus.pgn" height="70" width="35">
+            </div>
+        </div>
+        <div title='Costa Rica' style="width: 10px; height: 10px; position: absolute; top: 340px; left: 365px;">
+            <area shape="rect" coords="365 340 10 10" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="costa.pbg.png" height="50" width="35">
+            </div>
+        </div>
+
+        <div title='Croatia' style="width: 10px; height: 5px; position: absolute; top: 230px; left: 730px;">
+            <area shape="rect" coords="730 230 10 5" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="croat.jpg" height="50" width="35">
+            </div>
+        </div>
+        <div title='Cyprus' style="width: 5px; height: 5px; position: absolute; top: 265px; left: 790px;">
+            <area shape="rect" coords="790 265 5 5" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="cyprus.jpg" height="50" width="35">
+            </div>
+        </div>
+        <div title='Czech Rebulic' style="width: 15px; height: 8px; position: absolute; top: 214px; left: 719px;">
+            <area shape="rect" coords="719 214 15 8" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="czech.png" height="50" width="35">
+            </div>
+        </div>
+        <div title='Slovakia' style="width: 15px; height: 4px; position: absolute; top: 220px; left: 735px;">
+            <area shape="rect" coords="735 214 15 8" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="slovakia.jpg" height="50" width="35">
+            </div>
+        </div>
+        <div title='England' style="width: 25px; height: 33px; position: absolute; top: 182px; left: 655px;">
+            <area shape="rect" coords="719 214 15 8" href="https://www.google.com" alt="edfgh">
+            <div style="width: 50px; height: 50px; position: absolute; " class="tooltip">
+                <img class="tooltiptext" src="us.png" height="50" width="35">
+            </div>
+        </div>
+    </map>
+
+    <script src="tkreq.js"></script>
+    <script src="final.js"></script>
+
+    <script src="abc.js"></script>
+</body>
+
+</html>
